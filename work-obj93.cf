@@ -1,0 +1,31 @@
+v 4
+file . "tb_2e25_1e50.vhd" "48f41f89c9dc621e2a9e030e6d66fa512bbafb60" "20240205150044.174":
+  entity tb_2e25_1e50 at 1( 0) + 0 on 103;
+  architecture tb of tb_2e25_1e50 at 7( 93) + 0 on 104;
+file . "tb_2e50.vhd" "807bcb65db7b7dea6a1c8ed6261dbb59eed34368" "20240205145700.115":
+  entity tb_2e50 at 1( 0) + 0 on 101;
+  architecture tb of tb_2e50 at 7( 83) + 0 on 102;
+file . "tb_4e25.vhd" "232cb90a7c3a2f0f1819c4eafe3cd08bb1845387" "20240205022431.458":
+  entity tb_4e25 at 1( 0) + 0 on 95;
+  architecture tb of tb_4e25 at 7( 83) + 0 on 96;
+file . "PC.vhd" "378029534160cb421479b6c85176fb4c7cfed486" "20240217132448.564":
+  entity pc at 1( 0) + 0 on 125;
+  architecture maquinaestado of pc at 12( 187) + 1 on 126;
+file . "Registrador.vhd" "12c5354772041421d5d08a8556196549edc5ad05" "20240217132418.196":
+  entity registrador at 1( 0) + 0 on 121;
+  architecture hardware of registrador at 10( 217) + 1 on 122;
+file . "chafariz.vhdl" "f5a79b3b3be6db52080f48aba71ceb0a31102326" "20240217132510.703":
+  entity chafariz at 1( 0) + 0 on 127;
+  architecture rtl of chafariz at 15( 266) + 0 on 128;
+file . "tb_1e100.vhd" "35e4cbefea62bff53915141b8aaf3e2c1086127b" "20240205142841.830":
+  entity tb_1e100 at 1( 0) + 0 on 97;
+  architecture tb of tb_1e100 at 7( 85) + 0 on 98;
+file . "Somador.vhd" "cd48b17120085230047e8f06ed92b4b97775adb2" "20240217132401.801":
+  entity somador at 1( 0) + 0 on 119;
+  architecture operacao of somador at 14( 213) + 1 on 120;
+file . "PO.vhd" "0c013119ed1b20baddae0a2188c78370d8322c21" "20240217132440.121":
+  entity po at 1( 0) + 0 on 123;
+  architecture hardware of po at 15( 259) + 0 on 124;
+file . "Comparador.vhd" "3c3796f3ab6cd687a4f72bab93a11531a5197122" "20240217132355.448":
+  entity comparador at 1( 0) + 0 on 117;
+  architecture operacao of comparador at 14( 256) + 1 on 118;
